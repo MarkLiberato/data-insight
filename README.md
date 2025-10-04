@@ -2,7 +2,7 @@
 
 A complete full-stack application for AI-powered data analysis and insights, featuring a Next.js frontend and FastAPI backend with Pandas and PandasAI integration.
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 data-insight/
@@ -25,7 +25,7 @@ data-insight/
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ (for frontend)
@@ -54,7 +54,7 @@ Backend will be available at http://localhost:8000
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
 
-## ✨ Features
+## Features
 
 ### Frontend (Next.js 15)
 - **Modern UI**: Built with Shadcn/UI and Tailwind CSS
@@ -72,7 +72,7 @@ Backend will be available at http://localhost:8000
 - **CORS Support**: Configured for frontend integration
 - **Auto Documentation**: Swagger UI and ReDoc
 
-## 🔧 Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Framework**: Next.js 15 (App Router)
@@ -90,7 +90,7 @@ Backend will be available at http://localhost:8000
 - **Validation**: Pydantic
 - **Documentation**: Swagger UI / ReDoc
 
-## 📊 Workflow
+## Workflow
 
 1. **Upload**: User uploads CSV file through frontend
 2. **Process**: Backend processes file and returns dataset summary
@@ -98,7 +98,7 @@ Backend will be available at http://localhost:8000
 4. **Visualize**: Frontend displays interactive charts and insights
 5. **Insights**: AI-powered analysis provides actionable insights
 
-## 🔑 Environment Variables
+## Environment Variables
 
 ### Frontend (.env.local)
 ```env
@@ -113,7 +113,7 @@ MAX_FILE_SIZE=10485760
 UPLOAD_DIR=uploads
 ```
 
-## 🛠️ Development
+## Development
 
 ### Frontend Development
 ```bash
@@ -131,7 +131,7 @@ uvicorn app.main:app --reload    # Start development server
 pytest                           # Run tests
 ```
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### Upload
 - `POST /api/upload/` - Upload CSV file
@@ -145,7 +145,7 @@ pytest                           # Run tests
 - `GET /` - API information
 - `GET /health` - Health check
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] User authentication and authorization
 - [ ] Database integration for data persistence
@@ -156,6 +156,6 @@ pytest                           # Run tests
 - [ ] Machine learning model integration
 - [ ] Multi-user collaboration features
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
